@@ -36,7 +36,9 @@ function App () {
             </span>
 
             <div>
-              <button onClick={() => {
+              <button
+              className="complete-btn" 
+              onClick={() => {
                 const updatedTasks = tasks.map((taskItem, i) =>
                   i === index
                     ? {...taskItem, completed: !taskItem.completed}

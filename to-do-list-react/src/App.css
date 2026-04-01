@@ -66,3 +66,14 @@ li {
 .delete-btn:hover {
   background-color: darkred;
 }
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.complete-btn {
+  background-color: green;
+  color: white;
+  margin-right: 10px;
+}
