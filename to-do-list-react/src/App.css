@@ -1,0 +1,68 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+}
+
+.container {
+  width: 400px;
+  margin: 80px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input:hover {
+  box-shadow: 0 4px 10px rgb(151, 229, 233);
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eeeeee;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  padding: 8px 12px;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
